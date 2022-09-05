@@ -1,0 +1,525 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Blank page
+{% endblock %}
+
+{% block content %}
+<a href="index.html" class="govuk-back-link">Back</a>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-l">
+      Cyber security standards for schools and colleges
+      <span class="govuk-caption-m">{{releaseVersion}}</span>
+    </h1>{{releaseVersion | log }}
+
+    <p>Find out what standards your school or college should meet on cyber security, user accounts and data protection.</p>
+
+<div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+     
+        <h2 class="govuk-accordion__section-heading" id="protect-all-devices-on-every-network-with-a-properly-configured-boundary-or-software-firewall" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"1. Protect all devices on every network with a properly configured boundary or software firewall.","id":"protect-all-devices-on-every-network-with-a-properly-configured-boundary-or-software-firewall"},"index":1,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-1">Protect all devices on every network with a properly configured boundary or software firewall.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-1" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-1">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Properly configured firewalls prevent many attacks. They also make scanning for suitable hacking targets much harder.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to set up your devices to meet the standards described in the technical requirements.</p>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>To meet this standard you must:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>protect every device with a correctly configured boundary, or software firewall, or a device that performs the same function</li>
+  <li>change the default administrator password, or disable remote access on each firewall</li>
+  <li>protect access to the firewall’s administrative interface with multi-factor authentication (MFA), or a small specified IP-allow list combined with a managed password, or prevent access from the internet entirely</li>
+  <li>block inbound unauthenticated connections by default</li>
+  <li>approve and document the reasons for allowed inbound traffic firewall rules</li>
+  <li>review allowed inbound firewall rules often, change the rule when access is no longer needed</li>
+  <li>devices used on untrusted networks, like public wi-fi, should have a software firewall</li>
+</ul>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>DfE internet standards.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should already be meeting this standard for the security of your networks. This should be reviewed with the addition of each device to your network.</p>
+
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="network-devices-such-as-routers-switches-and-servers-should-be-known-and-recorded-their-security-features-should-be-enabled-and-correctly-configured" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"2. Network devices, such as routers, switches and servers, should be known and recorded. Their security features should be enabled and correctly configured.","id":"network-devices-such-as-routers-switches-and-servers-should-be-known-and-recorded-their-security-features-should-be-enabled-and-correctly-configured"},"index":2,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-2">Network devices, such as routers, switches and servers, should be known and recorded. Their security features should be enabled and correctly configured.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-2" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-2">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Security systems are sometimes disabled to make very marginal improvements to user experience. This is an unjustifiable risk calculation in most circumstances.</p>
+<p>Attackers scan for and exploit devices where the security features are not enabled. Using the security features that devices already have is the most basic form of cyber security.</p>
+<p>Attackers who gain physical access to a network device can exploit a system much more easily, so this should be prevented.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to record and set up your devices and BIOS to meet the technical requirements.</p>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<p>The National Cyber Security Centre has published guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance">managing devices</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/logging-and-protective-monitoring">logging and protective monitoring</a></li>
+</ul>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>To meet this standard you must:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>keep a register, list or network diagram with all the devices in your network or network segment, if the network is larger than one institution</li>
+  <li>make a choice about which features to use on your network if network devices have conflicting security features</li>
+  <li>remove or disable unused user accounts, including guest and unused administrator accounts</li>
+  <li>change default passwords</li>
+  <li>remove or disable all unnecessary software according to your organisational need</li>
+  <li>disable any auto-run features that allow file execution without user authorisation</li>
+  <li>set up filtering and monitoring services to work with the network’s security features enabled</li>
+  <li>require user authentication to access organisational services or data, for instance, only allow viewing of public-facing data</li>
+  <li>immediately change passwords which have been compromised or suspected of compromise</li>
+  <li>protect against a brute-force attack on all passwords by allowing no more than 10 guesses in 5 minutes, or locking devices after no more than 10 unsuccessful attempts</li>
+</ul>
+<p>You can use a password or PIN of at least 6 characters to physically access switches, BIOS settings on end-user devices and similar. The password or PIN must only be used to access this device.</p>
+<p>For all other devices, you must enforce password strength at the system level. If you use a deny list for automatic blocking of common passwords, use a password with at least 8 characters. Or, use a password with at least 12 characters or a biometric test.</p>
+<p>Password manager software is recommended.</p>
+<p>The National Cyber Security Centre provides detailed guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance">best practice</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/passwords">password administration for system owners</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/platform-guides">securing your devices</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/blog-post/the-logic-behind-three-random-words">the logic behind three random words</a></li>
+</ul>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should already be meeting this standard.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="all-user-accounts-should-be-password-protected-or-use-another-technical-authentication-technique-they-should-only-have-the-access-required-to-perform-their-role" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"3. All user accounts should be password protected or use another technical authentication technique. They should only have the access required to perform their role.","id":"all-user-accounts-should-be-password-protected-or-use-another-technical-authentication-technique-they-should-only-have-the-access-required-to-perform-their-role"},"index":3,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-3">All user accounts should be password protected or use another technical authentication technique. They should only have the access required to perform their role.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-3" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-3">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Successful cyber attacks target user accounts with the widest access and highest privileges on a network.</p>
+<p>You must limit the numbers and access of network and global administrative accounts.</p>
+<p>If you prevent and limit the compromise of these accounts you prevent and limit successful cyber attacks.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>School governors should approve the responsible administrator when your school headteacher or staff member controls access to other accounts.</p>
+<p>Otherwise, ask your IT service provider or network manager to set up accounts to meet the technical requirements.</p>
+<p>There must be a user account creation, approval and removal process. You should make this part of school joining and leaving protocols.</p>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>You must control user accounts and access privileges. Including accounts used by third parties, for example, support services or device management.</p>
+<p>Only authorised people can have an account which allows them to access, alter, disclose or delete the held personal data. The data protection officer or the data controller must identify and authorise these tasks.</p>
+<p>Users should have a separate account for routine business, including internet access, if their main account:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>is an administrative account</li>
+  <li>enables the execution of software that makes significant system or security changes</li>
+  <li>can make changes to the operating system</li>
+  <li>can create new accounts</li>
+  <li>can change the privileges of existing accounts</li>
+</ul>
+<p>Users must be authenticated before they access devices or services with unique credentials. This can include using passwords.</p>
+<p>You must enforce password strength at the system level. If you use a deny list for automatic blocking of common passwords, use a password with at least 8 characters. Or, use a password with at least 12 characters or a biometric test.</p>
+<p>The National Cyber Security Centre provides guidance on <a rel="external" href="https://www.ncsc.gov.uk/collection/passwords">password administration for system owners</a>.</p>
+<p>You must immediately change any password that has been compromised or suspected of compromise.</p>
+<p>You must remove unused accounts. This may include the accounts of users who have left their employment, or accounts that have not been used for a prolonged period of time. This is particularly important for accounts with administrator privileges. You should review this termly.</p>
+<p>Unused role privileges must be removed or disabled.</p>
+<p>No user’s account should have more access to devices than required to carry out their role.</p>
+<p>Use different accounts with specific rights for different purposes. Do not use the same account for different purposes. For example, one account should not be able to access both financial and teaching data.</p>
+<p>For younger children or users with special educational needs:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>consider using authentication methods other than passwords</li>
+  <li>consider using a separate account accessed by the teacher rather than the student</li>
+  <li>segment the network so such accounts cannot reach sensitive data</li>
+</ul>
+<p>You should not use Global Administrator accounts for routine business.</p>
+<p>You should only use accounts requiring administrator privileges to complete the tasks that need it.</p>
+<p>You should use service accounts for running system services and not user accounts.</p>
+<p>As an alternative, IT service providers and administrators can enable just-in-time access, which gives time-limited user privileges to individual accounts as required. The NCSC provides detailed guidance on <a rel="external" href="https://www.ncsc.gov.uk/collection/secure-system-administration/use-privileged-access-management">privileged access management</a>.</p>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be looking to implement this standard as soon as you can and with the introduction of each new account.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="you-should-protect-accounts-with-access-to-personal-or-sensitive-operational-data-and-functions-by-multi-factor-authentication" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"4. You should protect accounts with access to personal or sensitive operational data and functions by multi-factor authentication.","id":"you-should-protect-accounts-with-access-to-personal-or-sensitive-operational-data-and-functions-by-multi-factor-authentication"},"index":4,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-4">You should protect accounts with access to personal or sensitive operational data and functions by multi-factor authentication.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-4" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-4">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Multi-Factor Authentication reduces the possibility of an attacker compromising an account. This is especially important if an account has access to sensitive or personal data.</p>
+<p>Multi-factor authentication only allows access to a service when you present 2 or more different forms of authentication. This can be:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>something a user knows (such as a password)</li>
+  <li>something a user has (like a specific device)</li>
+  <li>something the user is (like a biometric device, or in a specific location)</li>
+</ul>
+<p>In this context, sensitive data is all data:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>that if lost or compromised, would have a serious impact on the establishment, staff or students</li>
+  <li>not considered personal data</li>
+</ul>
+<p>The Information Commissioner’s Office explains <a rel="external" href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/">what personal data is</a>.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to set up your devices with the multi-factor authentication methods which meet the technical requirements.</p>
+<p>You should provide training to users unfamiliar with multi-factor authentication.</p>
+<p>The National Cyber Security Centre provides detailed guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/guidance/setting-2-step-verification-2sv">setting up 2 step verification</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/blog-post/stepping-multi-factor-authentication">implementing multi-factor authentication</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/guidance/multi-factor-authentication-online-services">multi-factor authentication for online services</a></li>
+</ul>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>Where practical, you must enable multi-factor authentication. This should always include cloud services for non-teaching staff.</p>
+<p>You only need to ask users for a second authentication factor when accessing sensitive data. For example, when moving from lesson plans to MIS.</p>
+<p>Any multi-factor authentication is better than none.</p>
+<p>Multi-factor authentication should include at least two of the following:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>passwords constructed in the formats described earlier in standard 3</li>
+  <li>a managed device, that may belong to the organisation</li>
+  <li>an application on a trusted device</li>
+  <li>a device with a trusted network IP address, you should not use this in MFA for accounts with administrator rights</li>
+  <li>a physically separate token</li>
+  <li>a known/trusted account</li>
+  <li>a biometric test</li>
+</ul>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p><a rel="external" href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/">General Data Protection Regulation (GDPR)</a>.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be looking to implement this standard as soon as you can.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="you-should-use-anti-malware-software-to-protect-all-devices-in-the-network-including-cloud-based-networks" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"5. You should use anti-malware software to protect all devices in the network, including cloud-based networks.","id":"you-should-use-anti-malware-software-to-protect-all-devices-in-the-network-including-cloud-based-networks"},"index":5,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-5">You should use anti-malware software to protect all devices in the network, including cloud-based networks.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-5" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-5">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Up-to-date anti-malware software reduces the risk from many forms of cyber attack.</p>
+<p>Anti-virus software is a form of anti-malware software which protects against some forms of malware.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to set up your devices to meet the technical requirements.</p>
+<p>The National Cyber Security Centre on <a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/policies-and-settings/antivirus-and-other-security-software">antivirus and other security software</a>.</p>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>You must make sure anti-malware software and associated files and databases:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>are kept up to date</li>
+  <li>are set up to scan files upon access, when downloaded, opened, or accessed from a network folder</li>
+  <li>scan web pages as they are accessed</li>
+  <li>prevent access to potentially malicious websites, unless risk-assessed, authorised and documented against a specific business requirement</li>
+</ul>
+<p>Do not run applications or access data which has been identified as malware. Use the anti-malware software to eliminate the problem.</p>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be meeting this standard as soon as you can.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="an-administrator-should-check-the-security-of-all-applications-downloaded-onto-a-network" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"6. An administrator should check the security of all applications downloaded onto a network.","id":"an-administrator-should-check-the-security-of-all-applications-downloaded-onto-a-network"},"index":6,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-6">An administrator should check the security of all applications downloaded onto a network.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-6" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-6">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+   <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Applications can:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>be designed to insert malware onto a network</li>
+  <li>have unintentional security weaknesses</li>
+</ul>
+<p>This makes attacks easier to execute against the network.</p>
+<p>Users should not download applications. The IT service provider should check them first.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to set up your devices to meet the technical requirements.</p>
+<p>The National Cyber Security Centre provides guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/policies-and-settings/antivirus-and-other-security-software">the selection, configuration and use of antivirus and other security software</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/guidance/mitigating-malware-and-ransomware-attacks">how to defend organisations against malware or ransomware attacks</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/blog-post/malicious-macros-are-still-causing-problems">malicious Microsoft Office macros</a></li>
+</ul>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>The IT service provider should approve all applications that are deployed and executed by devices.</p>
+<p>Best practice is to maintain a current list of approved applications. Applications with invalid or no digital signatures should not be installed or used.</p>
+<p>The IT service provider or system administrator should make sure unknown applications and code do not pose a security risk. They should do this in the best way possible given the institution’s resources.</p>
+<p>You could search the internet to check the reputation of the application and the hosting site.</p>
+<p>The network’s anti-malware service should scan all downloaded applications. Make sure this is happening.</p>
+<p>You could also run unknown applications or code within a sandbox environment. Preventing access to other system elements and resources, unless the user grants permission. These system elements and resources include data, sensitive peripherals and local network access.</p>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be meeting this standard as soon as possible.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="all-online-devices-and-software-must-be-licensed-for-use-you-should-complete-security-patches-and-manual-configuration-changes-within-14-days-of-their-release-complete-within-3-days-if-notified-by-the-department-for-education-dfe" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"7. All online devices and software must be licensed for use. You should complete security patches and manual configuration changes within 14 days of their release. Complete within 3 days if notified by the Department for Education (DfE).","id":"all-online-devices-and-software-must-be-licensed-for-use-you-should-complete-security-patches-and-manual-configuration-changes-within-14-days-of-their-release-complete-within-3-days-if-notified-by-the-department-for-education-dfe"},"index":7,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-7">All online devices and software must be licensed for use. You should complete security patches and manual configuration changes within 14 days of their release. Complete within 3 days if notified by the Department for Education (DfE).</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-7" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-7">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Hackers try to identify and exploit the vulnerability that each new security update addresses. They try to do this before users are able to update their systems. In the last year, several attacks on educational establishments have taken advantage of this.</p>
+<p>Unsupported software does not receive security updates and over time it becomes:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>more vulnerable as methods of exploitation are discovered</li>
+  <li>less compatible with the security measures integrated into the network operating system</li>
+</ul>
+<p>Unlicensed software may not be a legitimate copy, or it may not be updatable to the latest secure standards.</p>
+<p>You must not use unlicensed hardware or software.</p>
+<p>You should avoid or replace unpatched or unsupported hardware or software. These devices are the most popular targets for successful cyber attacks.</p>
+<p>If this is not possible then these devices and software must not be accessible from the internet - so that scanning tools cannot find weaknesses.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to make sure all devices and software are licensed, supported and set up to meet the technical requirements.</p>
+<p>So that appropriate risk assessment and mitigation can take place, your IT service provider should tell leadership and governors at the school or college when devices or software:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>have become unsupported</li>
+  <li>are about to become unsupported</li>
+  <li>alter the network</li>
+</ul>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<p>The National Cyber Security Centre provides guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products">managing legacy products</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/infrastructure/virtual-private-networks">how to approach network segmentation</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/guidance/vulnerability-management">help organisations assess and prioritise vulnerabilities</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/install-the-latest-software-and-app-updates">applying patches</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/blog-post/the-problems-with-patching">problems with patching</a></li>
+</ul>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>All software must be currently licensed.</p>
+<p>You should remove unsupported software. If this is not possible then you must only use the software on parts of the network which prevent all traffic to and from the internet.</p>
+<p>Unsupported devices must only access segmented areas of the network which do not grant access to sensitive data.</p>
+<p>You must keep anti-malware software and associated files and databases up to date.</p>
+<p>You must enable automatic updates.</p>
+<p>If forced, you must complete manual updates to hardware or software, including configuration changes, within 14 days of release where the vulnerability is:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>
+    <p>described as high risk or worse</p>
+  </li>
+  <li>
+    <p>has a Common Vulnerability Scoring System (CVSSv3) score of 7 or above</p>
+  </li>
+</ul>
+<p>When notified by the Department for Education (DfE), patches should be applied within 3 days of notification. This will only be done in instances of dangerous zero-day attacks where institutions are at immediate risk and there is a suitable patch available.</p>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be meeting this standard as soon as possible.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="you-should-have-at-least-3-backup-copies-of-important-data-on-at-least-2-separate-devices-at-least-1-of-these-copies-must-be-offsite" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"8. You should have at least 3 backup copies of important data, on at least 2 separate devices. At least 1 of these copies must be offsite.","id":"you-should-have-at-least-3-backup-copies-of-important-data-on-at-least-2-separate-devices-at-least-1-of-these-copies-must-be-offsite"},"index":8,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-8">You should have at least 3 backup copies of important data, on at least 2 separate devices. At least 1 of these copies must be offsite.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-8" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-8">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>A backup is an additional copy of data, held in a different location, in case the original data is lost or damaged.</p>
+<p>Backups of important data are crucial for quick recovery in the event of disaster. The safest way to achieve this is to have a pattern of backing up on a rolling schedule. You should keep these backups off the network when not in use and check them regularly.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to install and configure your devices to meet the standards described in the technical requirements. If your IT service provider is an external contractor, the scope of this should be included in your service agreement.</p>
+<p>Be prepared to ask your service provider to explain what they are doing to help you achieve this standard. Including where the backups are located,  how often they are done, how often they are checked and how long a restoration will take.</p>
+<p>The National Cyber Security Centre has published detailed guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data">backing up your data</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/small-business-guide/backing-your-data">things to consider when backing up your data</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world">protecting back ups stored in the cloud</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/blog-post/cloud-backup-options-for-mitigating-the-threat-of-ransomware">cloud back up options</a></li>
+</ul>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>You should have at least 3 backup copies of important data, on at least 2 separate devices. At least 1 of these copies must be offsite.</p>
+<p>You should schedule backups  regularly and as needed by the institution. How often you need to create backups depends on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>how often the data changes</li>
+  <li>how difficult the information would be to replace if the backups failed</li>
+</ul>
+<p>At least 1 of the backups must be offline at all times. An offline backup is sometimes known as a cold backup.</p>
+<p>If the offline backup is in the cloud, access must be:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>by a secure account identity</li>
+  <li>from a device which cannot access the backup when the backup is not in use</li>
+</ul>
+<p>The number of devices with these access permissions must be kept to an absolute minimum.</p>
+<p>A secure account identity is defined as a specified account secured with a username and password.</p>
+<p>A device which cannot access the backup is defined as a device that has no valid credentials.</p>
+<p>Where the cloud services allow it, set up the controls to:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>only allow authorised devices to create new or appended backups</li>
+  <li>deny connection requests when backup is not in use</li>
+</ul>
+<p>Regularly check that the backups work.</p>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p><a href="https://www.gov.uk/guidance/the-risk-protection-arrangement-rpa-for-schools">Risk Protection Arrangement (RPA).</a></p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be looking to implement this standard as soon as you can.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="your-business-continuity-and-disaster-recovery-plan-should-include-a-contingency-plan-in-response-to-a-cyber-attack-this-plan-should-be-regularly-tested" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"9. Your business continuity and disaster recovery plan should include a contingency plan in response to a cyber attack. This plan should be regularly tested.","id":"your-business-continuity-and-disaster-recovery-plan-should-include-a-contingency-plan-in-response-to-a-cyber-attack-this-plan-should-be-regularly-tested"},"index":9,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-9">Your business continuity and disaster recovery plan should include a contingency plan in response to a cyber attack. This plan should be regularly tested.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-9" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-9">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Being unprepared for a cyber attack can lead to:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>poor decisions</li>
+  <li>slow recovery</li>
+  <li>expensive mistakes</li>
+</ul>
+<p>A good response plan made ahead of time will:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>reduce stress levels</li>
+  <li>increase response speed</li>
+  <li>reduce confusion</li>
+</ul>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Talk to your IT service provider and make sure you have a cyber attack contingency plan. The plan must be part of your business continuity and disaster recovery plan.</p>
+<p>The institution’s governors should oversee the creation and testing of these plans.</p>
+<p>The National Cyber Security Centre provides guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/section/about-ncsc/incident-management">incident management</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/caf/caf-principles-and-guidance/d-1-response-and-recovery-planning">response and recovery planning</a></li>
+</ul>
+<p>To help with testing, they also provide <a rel="external" href="https://www.ncsc.gov.uk/information/exercise-in-a-box">an exercise kit</a>.</p>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>All schools and colleges  must include a contingency plan for loss of some or all IT systems in their business continuity and disaster recovery plan. This is required by the <a href="https://www.gov.uk/government/publications/schools-financial-value-standard-sfvs/2019-to-2020-checklist-guidance">Schools financial value standard</a>.</p>
+<p>This plan must include:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>staff responsibilities</li>
+  <li>out of hours contacts and procedures</li>
+  <li>internal and external reporting and communications plans</li>
+  <li>priorities for service restoration</li>
+  <li>the minimum operational IT requirements</li>
+  <li>where you can find additional help and resources</li>
+</ul>
+<p>Keep hard copies of key information in case of total system failure.</p>
+<p>Test and review these plans regularly.</p>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be meeting this standard as soon as possible.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="cyber-attacks-should-always-be-reported" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"10. Cyber attacks should always be reported.","id":"cyber-attacks-should-always-be-reported"},"index":10,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-10">Cyber attacks should always be reported.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-10" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-10">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Cyber attacks are crimes against a school that need to be investigated so perpetrators can be found and counter-measures identified.</p>
+<p>A cyber attack is defined as an intentional and unauthorised attempt to access or compromise the data, hardware or software on a computer network or system.</p>
+<p>The National Cyber Security Centre <a rel="external" href="https://www.ncsc.gov.uk/information/what-cyber-incident">define what a cyber incident is</a>.</p>
+<p>This compromise of data might include:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>stealing the data</li>
+  <li>copying the data</li>
+  <li>tampering with the data</li>
+  <li>damaging the data, or similar</li>
+  <li>unauthorised access</li>
+</ul>
+<p>You should report any suspicious cyber incident to Action Fraud on 0300 123 2040 or <a rel="external" href="https://www.actionfraud.police.uk/reporting-fraud-and-cyber-crime">https://www.actionfraud.police.uk/reporting-fraud-and-cyber-crime</a></p>
+<p>Police investigations may find out if any compromised data has been published or sold and identify the perpetrator.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to notify the school leadership team (SLT) of all cyber attacks. Appropriate action and information-sharing must be carried out in accordance with <a rel="external" href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/">General Data Protection Regulation (GDPR).</a></p>
+<p>These incidents should also be reported to the DfE sector Cyber team at <a href="mailto:Sector.Incidentreporting@education.gov.uk">Sector.Incidentreporting@education.gov.uk</a> .</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>Schools and colleges must report cyber attacks to:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>Action Fraud</li>
+  <li>DfE</li>
+</ul>
+<p>and where applicable:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>Information Commissioner’s Office (ICO)</li>
+</ul>
+<p>You must act in accordance with:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>Action Fraud guidance for <a rel="external" href="https://www.actionfraud.police.uk/guide-to-reporting">reporting fraud and cyber crime</a>
+</li>
+  <li>ESFA <a href="https://www.gov.uk/guidance/academy-trust-handbook/part-6-the-regulator-and-intervention">Academy Trust Handbook Part 6</a>
+</li>
+  <li>ICO requirements for <a rel="external" href="https://cy.ico.org.uk/for-organisations/guide-to-data-protection/guide-to-le-processing/personal-data-breaches/">reporting personal data breaches</a>
+</li>
+</ul>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be looking to implement this standard as soon as you can.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="you-must-conduct-the-data-protection-impact-assessment-by-statute-for-all-the-personal-data-you-hold-if-you-must-store-or-send-personal-data-encrypt-the-data-or-prevent-unauthorised-access" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"11. You must conduct the Data Protection Impact Assessment by statute for all the personal data you hold. If you must store or send personal data, encrypt the data or prevent unauthorised access.","id":"you-must-conduct-the-data-protection-impact-assessment-by-statute-for-all-the-personal-data-you-hold-if-you-must-store-or-send-personal-data-encrypt-the-data-or-prevent-unauthorised-access"},"index":11,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-11">You must conduct the Data Protection Impact Assessment by statute for all the personal data you hold. If you must store or send personal data, encrypt the data or prevent unauthorised access.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-11" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-11">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>The protection of sensitive and personal data is vital to:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>the safety of staff and students</li>
+  <li>the reputation of schools and colleges</li>
+  <li>the confidence placed in schools and colleges</li>
+  <li>avoid the legal liabilities which security breaches expose schools and colleges to</li>
+</ul>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>You should control access to data in consultation with your IT service provider. This is to safeguard staff and students as required by the <a rel="external" href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/">General Data Protection Regulation (GDPR).</a></p>
+<p>To meet the standard, you must:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>assess the risk of compromise, and the degree of damage caused by a security compromise, to work out the resources required to protect the data</li>
+  <li>pseudonymize or encrypt any personal data while stored and in transit to a third party</li>
+  <li>ensure the confidentiality, integrity and availability of the data and systems processing them</li>
+  <li>restore complete and accurate data after an incident in a timely fashion</li>
+  <li>design and apply processes for testing and assessing the effectiveness of all measures used to safeguard data and its use</li>
+</ul>
+<p>There is DfE guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a href="https://www.gov.uk/government/publications/academy-trust-financial-management-good-practice-guides/academy-trust-risk-management">academy trust risk management</a></li>
+  <li><a href="https://www.gov.uk/government/publications/data-protection-toolkit-for-schools">data protection toolkit</a></li>
+</ul>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>Academy trusts should incorporate the risk assessment into the risk register.</p>
+<p>If you rely upon encryption, this should be:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>strong encryption</li>
+  <li>using encryption systems that are not yet broken</li>
+  <li>with a life appropriate to the sensitivity of the data being stored</li>
+</ul>
+<p>The Information Commissioner’s Office (ICO) provides <a rel="external" href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/encryption/">advice on how data encryption should be used</a>.</p>
+<p>Additional protection or password protection should meet the technical requirements in Standard 3.</p>
+<p>You should limit access to those staff with a specific need. Do this by specific content area, and not blanket permissions.</p>
+<p>By achieving all the cyber standards you can meet the additional requirements for:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>confidentiality</li>
+  <li>integrity</li>
+  <li>availability</li>
+  <li>restoration</li>
+</ul>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should already be meeting this standard in accordance with GDPR.</p>
+</div>
+  </div>
+   
+  </div>
+
+
+{% endblock %}
